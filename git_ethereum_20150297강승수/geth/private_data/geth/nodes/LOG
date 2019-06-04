@@ -1,0 +1,50 @@
+=============== Jun 4, 2019 (KST) ===============
+17:43:38.055536 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:43:38.056064 db@open opening
+17:43:38.061624 version@stat F·[] S·0B[] Sc·[]
+17:43:38.120634 db@janitor F·2 G·0
+17:43:38.120700 db@open done T·64.610638ms
+=============== Jun 4, 2019 (KST) ===============
+17:52:21.415958 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:52:21.416295 version@stat F·[] S·0B[] Sc·[]
+17:52:21.416325 db@open opening
+17:52:21.416441 journal@recovery F·1
+17:52:21.419660 journal@recovery recovering @1
+17:52:21.480573 memdb@flush created L0@2 N·580 S·14KiB "n:\x02..ver,v111":"version,v1"
+17:52:21.481699 version@stat F·[1] S·14KiB[14KiB] Sc·[0.25]
+17:52:21.482375 db@janitor F·3 G·0
+17:52:21.482431 db@open done T·66.091191ms
+=============== Jun 4, 2019 (KST) ===============
+18:08:33.572717 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:08:33.573133 version@stat F·[1] S·14KiB[14KiB] Sc·[0.25]
+18:08:33.573165 db@open opening
+18:08:33.573293 journal@recovery F·1
+18:08:33.574507 journal@recovery recovering @3
+18:08:33.632844 memdb@flush created L0@5 N·204 S·7KiB "n:\x04..ing,v756":"n:\xfe..ail,v605"
+18:08:33.634044 version@stat F·[2] S·22KiB[22KiB] Sc·[0.50]
+18:08:33.634857 db@janitor F·4 G·0
+18:08:33.634913 db@open done T·61.729713ms
+18:08:33.639776 table@compaction L0·2 -> L1·0 S·22KiB Q·794
+18:08:33.688890 table@build created L1@8 N·370 S·13KiB "n:\x02..ver,v111":"version,v1"
+18:08:33.688949 version@stat F·[0 1] S·13KiB[0B 13KiB] Sc·[0.00 0.00]
+18:08:33.733640 table@compaction committed F-1 S-9KiB Ke·0 D·414 T·93.818979ms
+18:08:33.733714 table@remove removed @5
+18:08:33.733750 table@remove removed @2
+=============== Jun 4, 2019 (KST) ===============
+21:18:41.371936 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:18:41.429912 version@stat F·[0 1] S·13KiB[0B 13KiB] Sc·[0.00 0.00]
+21:18:41.429975 db@open opening
+21:18:41.430162 journal@recovery F·1
+21:18:41.433544 journal@recovery recovering @6
+21:18:41.553026 memdb@flush created L0@9 N·191 S·5KiB "n:\x04..ail,v816":"n:\xf9..ail,v828"
+21:18:41.554179 version@stat F·[1 1] S·19KiB[5KiB 13KiB] Sc·[0.25 0.00]
+21:18:41.565749 db@janitor F·4 G·0
+21:18:41.565819 db@open done T·135.823001ms
+21:18:41.581769 table@compaction L0·1 -> L1·1 S·19KiB Q·979
+21:18:41.690469 table@build created L1@12 N·376 S·13KiB "n:\x02..ver,v111":"version,v1"
+21:18:41.690619 version@stat F·[0 1] S·13KiB[0B 13KiB] Sc·[0.00 0.00]
+21:18:41.853339 table@compaction committed F-1 S-5KiB Ke·0 D·185 T·271.461371ms
+21:18:41.853557 table@remove removed @9
+21:18:41.853708 table@remove removed @8
+21:19:37.281505 db@close closing
+21:19:37.281638 db@close done T·126.542µs
